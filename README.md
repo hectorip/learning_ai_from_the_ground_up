@@ -1,2 +1,5 @@
-# learning_ai_from_the_ground_up
+# Mi ruta de aprendizaje de Machine Learning
 Aprendiendo machine learning desde los fundamentos
+
+
+
