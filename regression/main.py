@@ -6,5 +6,10 @@ print("Hello ML with TensorFlow!")
 # Checando la versión de TensorFlow
 print(tf.__version__)
 
-# 
-
+# Get a DataSet
+# Divide the DataSet
+# Don't forget to normalize the data
+#
+#
+#
+#
