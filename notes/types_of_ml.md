@@ -20,3 +20,10 @@ pero se crean etiquetas artificiales para entrenar un modelo basado en las
 técnias de aprendizaje supervisado. Es una combinación de aprendizaje no
 supervisado y supervisado que después puede usarse para crear modelos
 predictivos o generativos.
+
+
+## Clasificación por tipo de entrenamiento
+
+
+
+
