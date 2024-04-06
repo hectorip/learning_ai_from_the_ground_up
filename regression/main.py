@@ -13,5 +13,4 @@ print(tf.__version__)
 # Create the model
 #
 # Train the model
-# HOML - Cap 4
 
