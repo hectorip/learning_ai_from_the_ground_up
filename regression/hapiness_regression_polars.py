@@ -1,3 +1,6 @@
+# The same implementations as hapiness_regression
+# but using polars instead of pandas
+
 import polars as pd
 import numpy as np
 import matplotlib.pyplot as plt
