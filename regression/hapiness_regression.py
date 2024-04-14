@@ -17,5 +17,5 @@ model = LinearRegression()
 model.fit(X, y)
 
 X_new = [[37_655.20]]
-print(model.predict(X_new))
+print("Prediction for unknown data {}", model.predict(X_new))
 
