@@ -18,3 +18,4 @@ model.fit(X, y)
 
 X_new = [[37_655.20]]
 print(model.predict(X_new))
+

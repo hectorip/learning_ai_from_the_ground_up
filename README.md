@@ -14,3 +14,6 @@ Aprendiendo machine learning desde los fundamentos
 1. Introduction to Statistical Learning
 2. TensorFlow for Deep Learning
 3. Pytohn Machine Learning
+4. One Hundred Page Machine Learning Book
+5. Deep Learning with Python
+
