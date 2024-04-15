@@ -24,6 +24,8 @@ predictivos o generativos.
 
 ## Clasificación por tipo de entrenamiento
 
-
-
-
+También se puede clasificar el machine learning por el tipo de entrenamiento
+o la frecuencia por el que lo recibe:
+- **Entranamiento por lote o batch**.
+- **Entrenamiento en línea**.
+- **Entrenamiento por mini-lotes**.
