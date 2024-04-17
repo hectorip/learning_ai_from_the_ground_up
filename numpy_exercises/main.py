@@ -8,3 +8,5 @@ import numpy as np
 # 1. Crear un array de 10 ceros
 
 mi_array = np.zeros(1)
+ceros = np.zeros(10)
+
