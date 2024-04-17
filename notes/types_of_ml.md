@@ -29,3 +29,4 @@ o la frecuencia por el que lo recibe:
 - **Entranamiento por lote o batch**.
 - **Entrenamiento en línea**.
 - **Entrenamiento por mini-lotes**.
+- **Entrenamiento por refuerzo**.
