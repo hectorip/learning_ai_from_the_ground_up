@@ -10,3 +10,6 @@ import numpy as np
 mi_array = np.zeros(1)
 ceros = np.zeros(10)
 
+print(mi_array)
+print(ceros)
+
