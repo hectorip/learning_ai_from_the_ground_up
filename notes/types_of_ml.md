@@ -21,7 +21,6 @@ técnias de aprendizaje supervisado. Es una combinación de aprendizaje no
 supervisado y supervisado que después puede usarse para crear modelos
 predictivos o generativos.
 
-
 ## Clasificación por tipo de entrenamiento
 
 También se puede clasificar el machine learning por el tipo de entrenamiento

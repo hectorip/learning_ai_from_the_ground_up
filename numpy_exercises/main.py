@@ -13,3 +13,11 @@ ceros = np.zeros(10)
 print(mi_array)
 print(ceros)
 
+
+# Es la biblioteca para computación científica en Python. Tiene como centro 
+# un objeto array de dimensiones arbitrarias (imagino que se puede considerar un tensor)
+# También tiene operaciones de álgebra lineal, funciones para genrar números aleatorios y
+# otras utilidades de cálculo.
+#
+
+
