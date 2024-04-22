@@ -18,6 +18,15 @@ print(ceros)
 # un objeto array de dimensiones arbitrarias (imagino que se puede considerar un tensor)
 # También tiene operaciones de álgebra lineal, funciones para genrar números aleatorios y
 # otras utilidades de cálculo.
-#
 
+print(np.ones(10))
+print(np.ones(10) * 5) # Esta operación es un broadcast
+
+# Generando un array con distribución normal
+
+print(np.random.randn(10))
+
+# Generando datos de ua distribución uniforme
+#
+print(np.random.uniform(0, 1, (2, 2)))
 
