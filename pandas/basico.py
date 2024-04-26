@@ -12,9 +12,10 @@ import pandas as pd
 # que puede tener más dimensiones.
 
 
-my_data_fram = pd.DataFrame({
+my_data_frame = pd.DataFrame({
     "a": [1, 2, 3],
     "b": [4, 5, 6],
     "c": [7, 8, 9]
 })
-print(my_data_fram)
+
+print(my_data_frame)
