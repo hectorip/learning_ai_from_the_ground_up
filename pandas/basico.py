@@ -13,9 +13,10 @@ import pandas as pd
 
 
 my_data_frame = pd.DataFrame({
-    "a": [1, 2, 3],
+    "a": [[1, 2, 3], [1, 2, 3],[1, 2, 3]],
     "b": [4, 5, 6],
     "c": [7, 8, 9]
 })
 
 print(my_data_frame)
+
