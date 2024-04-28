@@ -5,6 +5,18 @@
 # así que empezaremos con Pandas.
 
 import pandas as pd
+import numpy as np
+
+# Pandas provee Series, DataFrames y Panel.
+# Series: es un array unidimensional con etiquetas.
+
+my_series = pd.Series([1, 2, 3, 4]) # sin etiquetas explícitas, se usan numeros
+print(my_series)
+
+# Son muy similares a los arrays de NumPy (ndarray) y se pueden
+# usar en muchoas casos como argumentos de funciones de NumPy.
+
+print(np.sum(my_series))
 
 
 # El concepto principal de pandas es el DataFrame: una
