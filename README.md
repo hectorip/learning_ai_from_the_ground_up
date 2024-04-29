@@ -1,5 +1,6 @@
 # Mi ruta de aprendizaje de Machine Learning
-Aprendiendo machine learning desde los fundamentos
+Aprendiendo machine learning desde los fundamentos, con el objetivo de aplicarlo en los proyectos propios y de las empresas para las que trabajo.
+
 
 ## Cursos
 
