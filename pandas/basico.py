@@ -18,11 +18,12 @@ print(my_series)
 
 print(np.sum(my_series))
 
-
 # El concepto principal de pandas es el DataFrame: una
-# estructura de datos en forma de tabla con filas y columnas, pero
-# que puede tener más dimensiones.
-
+# estructura de datos en forma de tabla con filas y columnas
+# etiquetadas.
+#
+# Los elementos de un dataframe pueden ser de diferentes tipos,
+# pero todas las filas deben tener la misma cantidad de columnas.
 
 my_data_frame = pd.DataFrame({
     "a": [[1, 2, 3], [1, 2, 3],[1, 2, 3]],
