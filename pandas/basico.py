@@ -17,7 +17,8 @@ print(my_series)
 # usar en muchoas casos como argumentos de funciones de NumPy.
 
 print(np.sum(my_series))
-
+print(np.mean(my_series))
+print(np.std(my_series))
 # El concepto principal de pandas es el DataFrame: una
 # estructura de datos en forma de tabla con filas y columnas
 # etiquetadas.
@@ -32,4 +33,5 @@ my_data_frame = pd.DataFrame({
 })
 
 print(my_data_frame)
+
 
