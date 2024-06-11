@@ -18,7 +18,7 @@ print(my_series)
 
 print(np.sum(my_series))
 print(np.mean(my_series))
-print(np.std(my_series))
+print(np.std(my_series));lasj
 
 # El concepto principal de pandas es el DataFrame: una
 # estructura de datos en forma de tabla con filas y columnas
@@ -47,3 +47,6 @@ print(new_data_frame + 1)
 # Reading data from a CSV file
 
 data = pd.read_csv("data.csv")
+print(data)
+print(data)
+
