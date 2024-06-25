@@ -1,11 +1,9 @@
 # Testing Pytorch
 import torch
 
-def main():
-    # Main function
-    x = torch.rand(5, 5)
-    print(x)
-    print("Hello Pytorch!")
-
-main()
-
+# Generating a random tensor
+x = torch.rand(5, 5)
+y = torch.rand(5, 5)
+z = x + y
+print(f"x + y = {z}")
+print("Pytorch 🔥!")
