@@ -1,20 +1,16 @@
 import re
 import csv
 
+"""This was almost in its entirity written by Claude"""
 def parse_proposals(text):
     proposals = text.split('|')
-    
     parsed_proposals = []
-    
     for proposal in proposals:
         proposal = proposal.strip()
-        
         copy_match = re.search(r'^(.*?)(?=<argumentos>)', proposal, re.DOTALL)
         copy = copy_match.group(1).strip() if copy_match else ""
-        
         args_match = re.search(r'<argumentos>(.*?)</argumentos>', proposal, re.DOTALL)
         arguments = args_match.group(1).strip() if args_match else ""
-        
         visual_match = re.search(r'<visual>(.*?)</visual>', proposal, re.DOTALL)
         visual = visual_match.group(1).strip() if visual_match else ""
 
@@ -23,14 +19,13 @@ def parse_proposals(text):
             "arguments": arguments,
             "visual": visual,
         })
-    
     return parsed_proposals
 
 def save_to_csv(proposals, filename):
+    """Save the proposals to a CSV file."""
     with open(filename, 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['copy', 'arguments', 'visual']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        
         writer.writeheader()
         for proposal in proposals:
             writer.writerow(proposal)
@@ -48,9 +43,9 @@ Manchas rebeldes, ¿dónde? Estufas Mabe con cerámica mágica. Cocina sin miedo
 <visual>GIF animado: varita mágica tocando manchas en la estufa que desaparecen instantáneamente con destellos.</visual>|
 
 ¡Ups, se derramó la salsa! No pasa nada, con las estufas Mabe de cerámica fácil de limpiar. Cocina con pasión, limpia con diversión. #MabeNoStress
+
 <argumentos>Aborda un problema común de forma ligera, mostrando la solución de Mabe.</argumentos>
 <visual>Video corto: joven derrama salsa, expresión de pánico, luego sonríe al limpiar fácilmente. Termina guiñando a la cámara.</visual>|
-
 Cenar, bailar, limpiar la estufa en un segundo y seguir la fiesta. Todo es posible con Mabe. Estufas con cerámica que se limpian más rápido que tus stories. #MabeRapidez
 <argumentos>Compara la rapidez de limpieza con algo familiar para los jóvenes, como las redes sociales.</argumentos>
 <visual>Secuencia de fotos estilo Instagram: cena, baile, limpieza rápida, más baile. La limpieza ocupa solo un cuadro pequeño.</visual>|
@@ -74,14 +69,9 @@ La fiesta sigue en la cocina con Mabe. Estufas con cerámica fácil de limpiar. 
 """
 parsed_proposals = parse_proposals(text)
 
-# Imprimir los resultados
 for i, proposal in enumerate(parsed_proposals, 1):
     print(f"Propuesta {i}:")
     print(f"Copy: {proposal['copy']}")
     print(f"Argumentos: {proposal['arguments']}")
-    print()
 
 save_to_csv(parsed_proposals, 'propuestas_mabe_visual.csv')
-print("Los resultados han sido guardados en 'propuestas_mabe.csv'")
-
-
