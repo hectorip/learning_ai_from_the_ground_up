@@ -23,4 +23,6 @@ Bournaki** en el que aprendí 12 algoritmos y su aplicación en casos de estudio
 
 Estos algoritmos, junto con los casos son:
 
-1. Árboles de decisión: Predicción del churn de clientes de
+1. Árboles de decisión: Predicción de la reducción de una base de clientes.
+2. Regresión lineal: Predicción del precio de una casa.
+3. Regresión logística y regularización Ridge: Clasificación de reseñas.
